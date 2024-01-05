@@ -1,38 +1,33 @@
 import socket
 import threading
 
-
-header = 64   
-port = 7000
-host =socket.gethostbyname(socket.gethostname())  # Get local machine name
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((host, port))
-format = 'utf-8'
-
-
-
-def start():
-    print(f"[LISTENING] Server is listening on {host}")
-    server.listen()
+def handle_client(client_socket, address):
     while True:
-        conn, addr = server.accept()
-        thread = threading.Thread(target=handle_client,args=(conn,addr))
-        thread.start()
-        print(f"[ACTIVE CONNECTIONS] {threading.activeCount() - 1}")
-        
+        try:
+            message = client_socket.recv(1024).decode("utf-8")
+            if message:
+                print(f"Received message from {address}: {message}")
+                # Add your server logic here
+        except ConnectionResetError:
+            print(f"Connection with {address} closed.")
+            client_socket.close()
+            break
 
+def main():
+    host = '127.0.0.1'
+    port = 8000
+    
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((host, port))
+    server.listen(5)
 
-def handle_client(conn,addr):
-    print(f"[NEW CONNECTION] {addr} connected.")
-    connected = True
-    while connected:
-        data = conn.recv(header).decode(format)
-        if data:
-            msg_length = len(data)
-            msg = conn.recv(msg_length).decode(format)
-            print(f"[{addr}] {msg}")
-            conn.send("Message received".encode(format))
-    conn.close()
+    print(f"Server is listening on {host}:{port}")
+
+    while True:
+        client_socket, address = server.accept()
+        print(f"Connection established with {address}")
+        client_handler = threading.Thread(target=handle_client, args=(client_socket, address))
+        client_handler.start()
 
 if __name__ == "__main__":
-    start()
+    main()
