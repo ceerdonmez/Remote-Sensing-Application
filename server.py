@@ -1,26 +1,38 @@
 import socket
 import threading
 
-def server():
-    host = '127.0.0.1'
-    port = 7000
 
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind((host, port))
-        s.listen()
+header = 64   
+port = 7000
+host =socket.gethostbyname(socket.gethostname())  # Get local machine name
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server.bind((host, port))
+format = 'utf-8'
 
-        conn, addr = s.accept()
-        with conn:
-            print('Connected by', addr)
-            threading.Thread(target=handle_client, args=(conn,)).start()
 
-def handle_client(conn):
+
+def start():
+    print(f"[LISTENING] Server is listening on {host}")
+    server.listen()
     while True:
-        data = conn.recv(1024).decode()
-        if not data:
-            break
+        conn, addr = server.accept()
+        thread = threading.Thread(target=handle_client,args=(conn,addr))
+        thread.start()
+        print(f"[ACTIVE CONNECTIONS] {threading.activeCount() - 1}")
+        
 
-        print(data)  # Process and store data accordingly
+
+def handle_client(conn,addr):
+    print(f"[NEW CONNECTION] {addr} connected.")
+    connected = True
+    while connected:
+        data = conn.recv(header).decode(format)
+        if data:
+            msg_length = len(data)
+            msg = conn.recv(msg_length).decode(format)
+            print(f"[{addr}] {msg}")
+            conn.send("Message received".encode(format))
+    conn.close()
 
 if __name__ == "__main__":
-    server()
+    start()
