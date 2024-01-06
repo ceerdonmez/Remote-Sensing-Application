@@ -17,7 +17,8 @@ def main():
             )  # Generate random humidity value
 
             if humidity_value > 80:
-                message = f"HUMIDITY|{humidity_value}"
+                timestamp = time.strftime("%m.%d.%Y:%H:%M:%S")  # Get current time
+                message = f"HUMIDITY|{humidity_value}|{timestamp}"
                 client.sendto(message.encode(), (host, port))
                 print(message)
             time.sleep(1)

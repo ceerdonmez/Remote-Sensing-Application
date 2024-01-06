@@ -9,6 +9,7 @@ def handle_tcp_client(client_socket, address):
             if message:
                 print(f"Received message from {address}: {message}")
                 broadcast(message)
+            
         except ConnectionResetError:
             print(f"Connection with {address} closed.")
             client_socket.close()
@@ -29,7 +30,7 @@ def handle_udp_client(udp_gateway):
 # Function to broadcast message to all clients except the sender
 def broadcast(message):
     server_host = "127.0.0.1"
-    server_port = 8000
+    server_port = 8080
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.connect((server_host, server_port))
@@ -57,9 +58,10 @@ def main():
     udp_thread.start()
 
     while True:
-        
+        # Accept TCP client connection
         tcp_client_socket, address = tcp_gateway.accept()
         print(f"Connection established with {address}")
+        # Handle TCP client connection in a separate thread
         tcp_client_handler = threading.Thread(
             target=handle_tcp_client, args=(tcp_client_socket, address)
         )
