@@ -1,0 +1,523 @@
+2024-01-06 21:23:47,678 - Server is listening on 127.0.0.1:8080
+2024-01-06 21:24:03,278 - Connection established with ('127.0.0.1', 52704)
+2024-01-06 21:24:03,278 - Received message from ('127.0.0.1', 52704): ALIVE
+2024-01-06 21:24:05,279 - Connection established with ('127.0.0.1', 52705)
+2024-01-06 21:24:05,279 - Received message from ('127.0.0.1', 52705): HUMIDITY|84.84|01.06.2024:21:24:05
+2024-01-06 21:24:06,284 - Connection established with ('127.0.0.1', 52706)
+2024-01-06 21:24:06,284 - Received message from ('127.0.0.1', 52706): ALIVE
+2024-01-06 21:24:09,299 - Connection established with ('127.0.0.1', 52707)
+2024-01-06 21:24:09,300 - Received message from ('127.0.0.1', 52707): ALIVE
+2024-01-06 21:24:11,309 - Connection established with ('127.0.0.1', 52708)
+2024-01-06 21:24:11,310 - Received message from ('127.0.0.1', 52708): HUMIDITY|89.24|01.06.2024:21:24:11
+2024-01-06 21:24:12,315 - Connection established with ('127.0.0.1', 52710)
+2024-01-06 21:24:12,315 - Received message from ('127.0.0.1', 52710): ALIVE
+2024-01-06 21:24:15,329 - Connection established with ('127.0.0.1', 52719)
+2024-01-06 21:24:15,329 - Received message from ('127.0.0.1', 52719): ALIVE
+2024-01-06 21:25:03,316 - Connection with ('127.0.0.1', 52704) closed.
+2024-01-06 21:25:05,350 - Connection with ('127.0.0.1', 52705) closed.
+2024-01-06 21:25:06,357 - Connection with ('127.0.0.1', 52706) closed.
+2024-01-06 21:25:09,301 - Connection with ('127.0.0.1', 52707) closed.
+2024-01-06 21:25:11,355 - Connection with ('127.0.0.1', 52708) closed.
+2024-01-06 21:25:12,315 - Connection with ('127.0.0.1', 52710) closed.
+2024-01-06 21:25:13,298 - Connection established with ('127.0.0.1', 52742)
+2024-01-06 21:25:13,298 - Received message from ('127.0.0.1', 52742): HUMIDITY|83.48|01.06.2024:21:25:13
+2024-01-06 21:25:15,319 - Connection established with ('127.0.0.1', 52743)
+2024-01-06 21:25:15,319 - Received message from ('127.0.0.1', 52743): ALIVE
+2024-01-06 21:25:15,421 - Connection with ('127.0.0.1', 52719) closed.
+2024-01-06 21:25:18,334 - Connection established with ('127.0.0.1', 52745)
+2024-01-06 21:25:18,335 - Received message from ('127.0.0.1', 52745): ALIVE
+2024-01-06 21:25:21,348 - Connection established with ('127.0.0.1', 52747)
+2024-01-06 21:25:21,348 - Received message from ('127.0.0.1', 52747): ALIVE
+2024-01-06 21:25:22,354 - Connection established with ('127.0.0.1', 52749)
+2024-01-06 21:25:22,354 - Received message from ('127.0.0.1', 52749): HUMIDITY|85.24|01.06.2024:21:25:22
+2024-01-06 21:25:24,359 - Connection established with ('127.0.0.1', 52751)
+2024-01-06 21:25:24,359 - Received message from ('127.0.0.1', 52751): ALIVE
+2024-01-06 21:25:25,364 - Connection established with ('127.0.0.1', 52756)
+2024-01-06 21:25:25,364 - Received message from ('127.0.0.1', 52756): HUMIDITY|88.15|01.06.2024:21:25:25
+2024-01-06 21:25:27,374 - Connection established with ('127.0.0.1', 52761)
+2024-01-06 21:25:27,375 - Received message from ('127.0.0.1', 52761): ALIVE
+2024-01-06 21:25:30,390 - Connection established with ('127.0.0.1', 52762)
+2024-01-06 21:25:30,390 - Received message from ('127.0.0.1', 52762): ALIVE
+2024-01-06 21:25:31,394 - Connection established with ('127.0.0.1', 52763)
+2024-01-06 21:25:31,394 - Received message from ('127.0.0.1', 52763): HUMIDITY|83.62|01.06.2024:21:25:31
+2024-01-06 21:25:32,399 - Connection established with ('127.0.0.1', 52764)
+2024-01-06 21:25:32,399 - Received message from ('127.0.0.1', 52764): HUMIDITY|87.67|01.06.2024:21:25:32
+2024-01-06 21:25:33,404 - Connection established with ('127.0.0.1', 52765)
+2024-01-06 21:25:33,407 - Received message from ('127.0.0.1', 52765): ALIVE
+2024-01-06 21:25:36,417 - Connection established with ('127.0.0.1', 52767)
+2024-01-06 21:25:36,418 - Received message from ('127.0.0.1', 52767): ALIVE
+2024-01-06 21:25:39,433 - Connection established with ('127.0.0.1', 52768)
+2024-01-06 21:25:39,433 - Received message from ('127.0.0.1', 52768): ALIVE
+2024-01-06 21:25:40,437 - Connection established with ('127.0.0.1', 52769)
+2024-01-06 21:25:40,438 - Received message from ('127.0.0.1', 52769): HUMIDITY|84.03|01.06.2024:21:25:40
+2024-01-06 21:25:42,447 - Connection established with ('127.0.0.1', 52772)
+2024-01-06 21:25:42,448 - Received message from ('127.0.0.1', 52772): ALIVE
+2024-01-06 21:25:45,459 - Connection established with ('127.0.0.1', 52773)
+2024-01-06 21:25:45,459 - Received message from ('127.0.0.1', 52773): ALIVE
+2024-01-06 21:25:48,488 - Connection established with ('127.0.0.1', 52775)
+2024-01-06 21:25:48,490 - Received message from ('127.0.0.1', 52775): ALIVE
+2024-01-06 21:25:49,494 - Connection established with ('127.0.0.1', 52777)
+2024-01-06 21:25:49,495 - Received message from ('127.0.0.1', 52777): HUMIDITY|84.61|01.06.2024:21:25:49
+2024-01-06 21:25:50,500 - Connection established with ('127.0.0.1', 52779)
+2024-01-06 21:25:50,502 - Received message from ('127.0.0.1', 52779): HUMIDITY|88.2|01.06.2024:21:25:50
+2024-01-06 21:25:51,503 - Connection established with ('127.0.0.1', 52783)
+2024-01-06 21:25:51,504 - Received message from ('127.0.0.1', 52783): ALIVE
+2024-01-06 21:25:54,518 - Connection established with ('127.0.0.1', 52786)
+2024-01-06 21:25:54,519 - Received message from ('127.0.0.1', 52786): ALIVE
+2024-01-06 21:25:56,528 - Connection established with ('127.0.0.1', 52787)
+2024-01-06 21:25:56,529 - Received message from ('127.0.0.1', 52787): HUMIDITY|85.67|01.06.2024:21:25:56
+2024-01-06 21:25:57,533 - Connection established with ('127.0.0.1', 52788)
+2024-01-06 21:25:57,534 - Received message from ('127.0.0.1', 52788): ALIVE
+2024-01-06 21:26:00,548 - Connection established with ('127.0.0.1', 52789)
+2024-01-06 21:26:00,548 - Received message from ('127.0.0.1', 52789): ALIVE
+2024-01-06 21:26:13,323 - Connection with ('127.0.0.1', 52742) closed.
+2024-01-06 21:26:15,321 - Connection with ('127.0.0.1', 52743) closed.
+2024-01-06 21:26:18,343 - Connection with ('127.0.0.1', 52745) closed.
+2024-01-06 21:26:21,443 - Connection with ('127.0.0.1', 52747) closed.
+2024-01-06 21:26:22,354 - Connection with ('127.0.0.1', 52749) closed.
+2024-01-06 21:26:24,377 - Connection with ('127.0.0.1', 52751) closed.
+2024-01-06 21:26:25,366 - Connection with ('127.0.0.1', 52756) closed.
+2024-01-06 21:26:27,627 - Connection with ('127.0.0.1', 52761) closed.
+2024-01-06 21:26:30,479 - Connection with ('127.0.0.1', 52762) closed.
+2024-01-06 21:26:31,395 - Connection with ('127.0.0.1', 52763) closed.
+2024-01-06 21:26:32,405 - Connection with ('127.0.0.1', 52764) closed.
+2024-01-06 21:26:33,413 - Connection with ('127.0.0.1', 52765) closed.
+2024-01-06 21:26:36,420 - Connection with ('127.0.0.1', 52767) closed.
+2024-01-06 21:26:39,498 - Connection with ('127.0.0.1', 52768) closed.
+2024-01-06 21:26:40,502 - Connection with ('127.0.0.1', 52769) closed.
+2024-01-06 21:26:42,518 - Connection with ('127.0.0.1', 52772) closed.
+2024-01-06 21:26:45,460 - Connection with ('127.0.0.1', 52773) closed.
+2024-01-06 21:26:48,489 - Connection with ('127.0.0.1', 52775) closed.
+2024-01-06 21:26:49,496 - Connection with ('127.0.0.1', 52777) closed.
+2024-01-06 21:26:50,499 - Connection with ('127.0.0.1', 52779) closed.
+2024-01-06 21:26:51,542 - Connection with ('127.0.0.1', 52783) closed.
+2024-01-06 21:26:54,550 - Connection with ('127.0.0.1', 52786) closed.
+2024-01-06 21:26:56,530 - Connection with ('127.0.0.1', 52787) closed.
+2024-01-06 21:26:57,537 - Connection with ('127.0.0.1', 52788) closed.
+2024-01-06 21:27:00,638 - Connection with ('127.0.0.1', 52789) closed.
+2024-01-06 21:28:56,821 - Server is listening on 127.0.0.1:8080
+2024-01-06 21:29:27,575 - Connection established with ('127.0.0.1', 52969)
+2024-01-06 21:29:27,576 - Received message from ('127.0.0.1', 52969): ALIVE
+2024-01-06 21:29:30,587 - Connection established with ('127.0.0.1', 52970)
+2024-01-06 21:29:30,588 - Received message from ('127.0.0.1', 52970): ALIVE
+2024-01-06 21:30:02,798 - Connection established with ('127.0.0.1', 52985)
+2024-01-06 21:30:02,799 - Received message from ('127.0.0.1', 52985): HUMIDITY|83.95|01.06.2024:21:30:02
+2024-01-06 21:30:03,802 - Connection established with ('127.0.0.1', 52987)
+2024-01-06 21:30:03,802 - Received message from ('127.0.0.1', 52987): ALIVE
+2024-01-06 21:30:06,815 - Connection established with ('127.0.0.1', 52991)
+2024-01-06 21:30:06,815 - Received message from ('127.0.0.1', 52991): ALIVE
+2024-01-06 21:30:27,556 - Connection with ('127.0.0.1', 52969) closed.
+2024-01-06 21:30:30,566 - Connection with ('127.0.0.1', 52970) closed.
+2024-01-06 21:30:49,702 - Connection established with ('127.0.0.1', 53003)
+2024-01-06 21:30:49,702 - Received message from ('127.0.0.1', 53003): HUMIDITY|82.38|01.06.2024:21:30:49
+2024-01-06 21:30:51,711 - Connection established with ('127.0.0.1', 53006)
+2024-01-06 21:30:51,711 - Received message from ('127.0.0.1', 53006): ALIVE
+2024-01-06 21:30:54,726 - Connection established with ('127.0.0.1', 53010)
+2024-01-06 21:30:54,726 - Received message from ('127.0.0.1', 53010): ALIVE
+2024-01-06 21:30:55,731 - Connection established with ('127.0.0.1', 53011)
+2024-01-06 21:30:55,731 - Received message from ('127.0.0.1', 53011): HUMIDITY|84.29|01.06.2024:21:30:55
+2024-01-06 21:31:02,792 - Connection with ('127.0.0.1', 52985) closed.
+2024-01-06 21:31:03,800 - Connection with ('127.0.0.1', 52987) closed.
+2024-01-06 21:31:06,807 - Connection with ('127.0.0.1', 52991) closed.
+2024-01-06 21:31:49,759 - Connection with ('127.0.0.1', 53003) closed.
+2024-01-06 21:31:51,787 - Connection with ('127.0.0.1', 53006) closed.
+2024-01-06 21:31:54,812 - Connection with ('127.0.0.1', 53010) closed.
+2024-01-06 21:31:55,731 - Connection with ('127.0.0.1', 53011) closed.
+2024-01-06 21:31:58,552 - Connection established with ('127.0.0.1', 53038)
+2024-01-06 21:31:58,552 - Received message from ('127.0.0.1', 53038): HUMIDITY|86.69|01.06.2024:21:31:58
+2024-01-06 21:32:00,562 - Connection established with ('127.0.0.1', 53039)
+2024-01-06 21:32:00,562 - Received message from ('127.0.0.1', 53039): ALIVE
+2024-01-06 21:32:02,572 - Connection established with ('127.0.0.1', 53040)
+2024-01-06 21:32:02,572 - Received message from ('127.0.0.1', 53040): HUMIDITY|80.89|01.06.2024:21:32:02
+2024-01-06 21:32:03,577 - Connection established with ('127.0.0.1', 53041)
+2024-01-06 21:32:03,577 - Received message from ('127.0.0.1', 53041): ALIVE
+2024-01-06 21:32:05,588 - Connection established with ('127.0.0.1', 53043)
+2024-01-06 21:32:05,588 - Received message from ('127.0.0.1', 53043): HUMIDITY|82.36|01.06.2024:21:32:05
+2024-01-06 21:32:06,593 - Connection established with ('127.0.0.1', 53044)
+2024-01-06 21:32:06,593 - Received message from ('127.0.0.1', 53044): ALIVE
+2024-01-06 21:32:09,608 - Connection established with ('127.0.0.1', 53046)
+2024-01-06 21:32:09,608 - Received message from ('127.0.0.1', 53046): ALIVE
+2024-01-06 21:32:12,623 - Connection established with ('127.0.0.1', 53047)
+2024-01-06 21:32:12,624 - Received message from ('127.0.0.1', 53047): ALIVE
+2024-01-06 21:32:15,639 - Connection established with ('127.0.0.1', 53049)
+2024-01-06 21:32:15,639 - Received message from ('127.0.0.1', 53049): ALIVE
+2024-01-06 21:32:18,653 - Connection established with ('127.0.0.1', 53052)
+2024-01-06 21:32:18,654 - Received message from ('127.0.0.1', 53052): ALIVE
+2024-01-06 21:32:19,658 - Connection established with ('127.0.0.1', 53053)
+2024-01-06 21:32:19,659 - Received message from ('127.0.0.1', 53053): HUMIDITY|86.74|01.06.2024:21:32:19
+2024-01-06 21:32:20,664 - Connection established with ('127.0.0.1', 53054)
+2024-01-06 21:32:20,664 - Received message from ('127.0.0.1', 53054): HUMIDITY|89.46|01.06.2024:21:32:20
+2024-01-06 21:32:21,669 - Connection established with ('127.0.0.1', 53055)
+2024-01-06 21:32:21,669 - Received message from ('127.0.0.1', 53055): ALIVE
+2024-01-06 21:32:24,680 - Connection established with ('127.0.0.1', 53056)
+2024-01-06 21:32:24,681 - Received message from ('127.0.0.1', 53056): ALIVE
+2024-01-06 21:32:25,685 - Connection established with ('127.0.0.1', 53059)
+2024-01-06 21:32:25,686 - Received message from ('127.0.0.1', 53059): HUMIDITY|85.57|01.06.2024:21:32:25
+2024-01-06 21:32:27,694 - Connection established with ('127.0.0.1', 53061)
+2024-01-06 21:32:27,694 - Received message from ('127.0.0.1', 53061): ALIVE
+2024-01-06 21:32:30,709 - Connection established with ('127.0.0.1', 53069)
+2024-01-06 21:32:30,710 - Received message from ('127.0.0.1', 53069): ALIVE
+2024-01-06 21:32:31,714 - Connection established with ('127.0.0.1', 53070)
+2024-01-06 21:32:31,714 - Received message from ('127.0.0.1', 53070): HUMIDITY|86.81|01.06.2024:21:32:31
+2024-01-06 21:32:50,805 - Connection established with ('127.0.0.1', 53075)
+2024-01-06 21:32:50,807 - Received message from ('127.0.0.1', 53075): HUMIDITY|80.23|01.06.2024:21:32:50
+2024-01-06 21:32:51,810 - Connection established with ('127.0.0.1', 53076)
+2024-01-06 21:32:51,811 - Received message from ('127.0.0.1', 53076): ALIVE
+2024-01-06 21:32:58,766 - Connection with ('127.0.0.1', 53038) closed.
+2024-01-06 21:33:00,563 - Connection with ('127.0.0.1', 53039) closed.
+2024-01-06 21:33:02,643 - Connection with ('127.0.0.1', 53040) closed.
+2024-01-06 21:33:03,651 - Connection with ('127.0.0.1', 53041) closed.
+2024-01-06 21:33:05,620 - Connection with ('127.0.0.1', 53043) closed.
+2024-01-06 21:33:06,594 - Connection with ('127.0.0.1', 53044) closed.
+2024-01-06 21:33:09,706 - Connection with ('127.0.0.1', 53046) closed.
+2024-01-06 21:33:12,715 - Connection with ('127.0.0.1', 53047) closed.
+2024-01-06 21:33:15,711 - Connection with ('127.0.0.1', 53049) closed.
+2024-01-06 21:33:18,682 - Connection with ('127.0.0.1', 53052) closed.
+2024-01-06 21:33:19,659 - Connection with ('127.0.0.1', 53053) closed.
+2024-01-06 21:33:20,670 - Connection with ('127.0.0.1', 53054) closed.
+2024-01-06 21:33:21,670 - Connection with ('127.0.0.1', 53055) closed.
+2024-01-06 21:33:24,715 - Connection with ('127.0.0.1', 53056) closed.
+2024-01-06 21:33:25,685 - Connection with ('127.0.0.1', 53059) closed.
+2024-01-06 21:33:27,745 - Connection with ('127.0.0.1', 53061) closed.
+2024-01-06 21:33:30,773 - Connection with ('127.0.0.1', 53069) closed.
+2024-01-06 21:33:31,782 - Connection with ('127.0.0.1', 53070) closed.
+2024-01-06 21:33:50,833 - Connection with ('127.0.0.1', 53075) closed.
+2024-01-06 21:33:51,840 - Connection with ('127.0.0.1', 53076) closed.
+2024-01-06 21:38:42,783 - Connection established with ('127.0.0.1', 53192)
+2024-01-06 21:38:42,786 - Received message from ('127.0.0.1', 53192): ALIVE
+2024-01-06 21:38:43,784 - Connection established with ('127.0.0.1', 53193)
+2024-01-06 21:38:43,784 - Received message from ('127.0.0.1', 53193): HUMIDITY|86.79|01.06.2024:21:38:43
+2024-01-06 21:38:44,789 - Connection established with ('127.0.0.1', 53194)
+2024-01-06 21:38:44,789 - Received message from ('127.0.0.1', 53194): HUMIDITY|85.96|01.06.2024:21:38:44
+2024-01-06 21:38:45,794 - Connection established with ('127.0.0.1', 53196)
+2024-01-06 21:38:45,794 - Received message from ('127.0.0.1', 53196): ALIVE
+2024-01-06 21:38:48,806 - Connection established with ('127.0.0.1', 53197)
+2024-01-06 21:38:48,806 - Received message from ('127.0.0.1', 53197): ALIVE
+2024-01-06 21:38:50,814 - Connection established with ('127.0.0.1', 53200)
+2024-01-06 21:38:50,814 - Received message from ('127.0.0.1', 53200): HUMIDITY|86.03|01.06.2024:21:38:50
+2024-01-06 21:39:42,801 - Connection with ('127.0.0.1', 53192) closed.
+2024-01-06 21:39:43,809 - Connection with ('127.0.0.1', 53193) closed.
+2024-01-06 21:39:44,819 - Connection with ('127.0.0.1', 53194) closed.
+2024-01-06 21:39:45,798 - Connection with ('127.0.0.1', 53196) closed.
+2024-01-06 21:39:48,886 - Connection with ('127.0.0.1', 53197) closed.
+2024-01-06 21:39:50,815 - Connection with ('127.0.0.1', 53200) closed.
+2024-01-06 21:40:27,843 - Connection established with ('127.0.0.1', 53244)
+2024-01-06 21:40:27,844 - Received message from ('127.0.0.1', 53244): ALIVE
+2024-01-06 21:40:29,854 - Connection established with ('127.0.0.1', 53245)
+2024-01-06 21:40:29,854 - Received message from ('127.0.0.1', 53245): HUMIDITY|87.49|01.06.2024:21:40:29
+2024-01-06 21:40:55,022 - Connection established with ('127.0.0.1', 53256)
+2024-01-06 21:40:55,023 - Received message from ('127.0.0.1', 53256): HUMIDITY|83.92|01.06.2024:21:40:55
+2024-01-06 21:40:56,023 - Connection established with ('127.0.0.1', 53258)
+2024-01-06 21:40:56,023 - Received message from ('127.0.0.1', 53258): HUMIDITY|83.97|01.06.2024:21:40:56
+2024-01-06 21:40:57,028 - Connection established with ('127.0.0.1', 53259)
+2024-01-06 21:40:57,029 - Received message from ('127.0.0.1', 53259): ALIVE
+2024-01-06 21:41:00,043 - Connection established with ('127.0.0.1', 53260)
+2024-01-06 21:41:00,044 - Received message from ('127.0.0.1', 53260): ALIVE
+2024-01-06 21:41:01,049 - Connection established with ('127.0.0.1', 53261)
+2024-01-06 21:41:01,049 - Received message from ('127.0.0.1', 53261): HUMIDITY|86.83|01.06.2024:21:41:01
+2024-01-06 21:41:03,053 - Connection established with ('127.0.0.1', 53264)
+2024-01-06 21:41:03,053 - Received message from ('127.0.0.1', 53264): ALIVE
+2024-01-06 21:41:06,067 - Connection established with ('127.0.0.1', 53266)
+2024-01-06 21:41:06,068 - Received message from ('127.0.0.1', 53266): ALIVE
+2024-01-06 21:41:09,083 - Connection established with ('127.0.0.1', 53267)
+2024-01-06 21:41:09,083 - Received message from ('127.0.0.1', 53267): ALIVE
+2024-01-06 21:41:12,097 - Connection established with ('127.0.0.1', 53269)
+2024-01-06 21:41:12,097 - Received message from ('127.0.0.1', 53269): ALIVE
+2024-01-06 21:41:15,112 - Connection established with ('127.0.0.1', 53278)
+2024-01-06 21:41:15,113 - Received message from ('127.0.0.1', 53278): ALIVE
+2024-01-06 21:41:18,124 - Connection established with ('127.0.0.1', 53280)
+2024-01-06 21:41:18,124 - Received message from ('127.0.0.1', 53280): ALIVE
+2024-01-06 21:41:21,138 - Connection established with ('127.0.0.1', 53281)
+2024-01-06 21:41:21,138 - Received message from ('127.0.0.1', 53281): ALIVE
+2024-01-06 21:41:24,153 - Connection established with ('127.0.0.1', 53282)
+2024-01-06 21:41:24,153 - Received message from ('127.0.0.1', 53282): ALIVE
+2024-01-06 21:41:27,169 - Connection established with ('127.0.0.1', 53284)
+2024-01-06 21:41:27,169 - Received message from ('127.0.0.1', 53284): ALIVE
+2024-01-06 21:41:27,876 - Connection with ('127.0.0.1', 53244) closed.
+2024-01-06 21:41:29,179 - Connection established with ('127.0.0.1', 53285)
+2024-01-06 21:41:29,179 - Received message from ('127.0.0.1', 53285): HUMIDITY|82.14|01.06.2024:21:41:29
+2024-01-06 21:41:29,883 - Connection with ('127.0.0.1', 53245) closed.
+2024-01-06 21:41:30,182 - Connection established with ('127.0.0.1', 53286)
+2024-01-06 21:41:30,182 - Received message from ('127.0.0.1', 53286): ALIVE
+2024-01-06 21:41:33,197 - Connection established with ('127.0.0.1', 53287)
+2024-01-06 21:41:33,198 - Received message from ('127.0.0.1', 53287): ALIVE
+2024-01-06 21:41:36,212 - Connection established with ('127.0.0.1', 53290)
+2024-01-06 21:41:36,212 - Received message from ('127.0.0.1', 53290): ALIVE
+2024-01-06 21:41:38,222 - Connection established with ('127.0.0.1', 53291)
+2024-01-06 21:41:38,223 - Received message from ('127.0.0.1', 53291): HUMIDITY|86.79|01.06.2024:21:41:38
+2024-01-06 21:41:39,227 - Connection established with ('127.0.0.1', 53292)
+2024-01-06 21:41:39,228 - Received message from ('127.0.0.1', 53292): ALIVE
+2024-01-06 21:41:42,243 - Connection established with ('127.0.0.1', 53293)
+2024-01-06 21:41:42,244 - Received message from ('127.0.0.1', 53293): ALIVE
+2024-01-06 21:41:45,257 - Connection established with ('127.0.0.1', 53295)
+2024-01-06 21:41:45,257 - Received message from ('127.0.0.1', 53295): ALIVE
+2024-01-06 21:41:47,266 - Connection established with ('127.0.0.1', 53297)
+2024-01-06 21:41:47,268 - Received message from ('127.0.0.1', 53297): HUMIDITY|87.75|01.06.2024:21:41:47
+2024-01-06 21:41:48,270 - Connection established with ('127.0.0.1', 53298)
+2024-01-06 21:41:48,271 - Received message from ('127.0.0.1', 53298): ALIVE
+2024-01-06 21:41:51,284 - Connection established with ('127.0.0.1', 53299)
+2024-01-06 21:41:51,284 - Received message from ('127.0.0.1', 53299): ALIVE
+2024-01-06 21:41:54,297 - Connection established with ('127.0.0.1', 53300)
+2024-01-06 21:41:54,297 - Received message from ('127.0.0.1', 53300): ALIVE
+2024-01-06 21:41:55,093 - Connection with ('127.0.0.1', 53256) closed.
+2024-01-06 21:41:56,024 - Connection with ('127.0.0.1', 53258) closed.
+2024-01-06 21:41:57,028 - Connection with ('127.0.0.1', 53259) closed.
+2024-01-06 21:41:57,312 - Connection established with ('127.0.0.1', 53302)
+2024-01-06 21:41:57,312 - Received message from ('127.0.0.1', 53302): ALIVE
+2024-01-06 21:42:00,055 - Connection with ('127.0.0.1', 53260) closed.
+2024-01-06 21:42:00,327 - Connection established with ('127.0.0.1', 53303)
+2024-01-06 21:42:00,327 - Received message from ('127.0.0.1', 53303): ALIVE
+2024-01-06 21:42:01,060 - Connection with ('127.0.0.1', 53261) closed.
+2024-01-06 21:42:03,054 - Connection with ('127.0.0.1', 53264) closed.
+2024-01-06 21:42:06,068 - Connection with ('127.0.0.1', 53266) closed.
+2024-01-06 21:42:09,084 - Connection with ('127.0.0.1', 53267) closed.
+2024-01-06 21:42:12,551 - Connection with ('127.0.0.1', 53269) closed.
+2024-01-06 21:42:15,113 - Connection with ('127.0.0.1', 53278) closed.
+2024-01-06 21:42:18,125 - Connection with ('127.0.0.1', 53280) closed.
+2024-01-06 21:42:21,347 - Connection with ('127.0.0.1', 53281) closed.
+2024-01-06 21:42:24,154 - Connection with ('127.0.0.1', 53282) closed.
+2024-01-06 21:42:27,192 - Connection with ('127.0.0.1', 53284) closed.
+2024-01-06 21:42:29,180 - Connection with ('127.0.0.1', 53285) closed.
+2024-01-06 21:42:30,244 - Connection with ('127.0.0.1', 53286) closed.
+2024-01-06 21:42:33,198 - Connection with ('127.0.0.1', 53287) closed.
+2024-01-06 21:42:36,282 - Connection with ('127.0.0.1', 53290) closed.
+2024-01-06 21:42:38,316 - Connection with ('127.0.0.1', 53291) closed.
+2024-01-06 21:42:39,325 - Connection with ('127.0.0.1', 53292) closed.
+2024-01-06 21:42:42,245 - Connection with ('127.0.0.1', 53293) closed.
+2024-01-06 21:42:45,257 - Connection with ('127.0.0.1', 53295) closed.
+2024-01-06 21:42:47,363 - Connection with ('127.0.0.1', 53297) closed.
+2024-01-06 21:42:48,271 - Connection with ('127.0.0.1', 53298) closed.
+2024-01-06 21:42:51,284 - Connection with ('127.0.0.1', 53299) closed.
+2024-01-06 21:42:54,297 - Connection with ('127.0.0.1', 53300) closed.
+2024-01-06 21:42:57,313 - Connection with ('127.0.0.1', 53302) closed.
+2024-01-06 21:43:00,327 - Connection with ('127.0.0.1', 53303) closed.
+2024-01-06 21:43:06,429 - Connection established with ('127.0.0.1', 53332)
+2024-01-06 21:43:06,430 - Received message from ('127.0.0.1', 53332): ALIVE
+2024-01-06 21:43:09,445 - Connection established with ('127.0.0.1', 53334)
+2024-01-06 21:43:09,445 - Received message from ('127.0.0.1', 53334): ALIVE
+2024-01-06 21:43:10,451 - Connection established with ('127.0.0.1', 53335)
+2024-01-06 21:43:10,451 - Received message from ('127.0.0.1', 53335): HUMIDITY|82.11|01.06.2024:21:43:10
+2024-01-06 21:43:12,460 - Connection established with ('127.0.0.1', 53336)
+2024-01-06 21:43:12,460 - Received message from ('127.0.0.1', 53336): ALIVE
+2024-01-06 21:43:15,473 - Connection established with ('127.0.0.1', 53337)
+2024-01-06 21:43:15,474 - Received message from ('127.0.0.1', 53337): ALIVE
+2024-01-06 21:43:18,488 - Connection established with ('127.0.0.1', 53338)
+2024-01-06 21:43:18,489 - Received message from ('127.0.0.1', 53338): ALIVE
+2024-01-06 21:43:21,499 - Connection established with ('127.0.0.1', 53339)
+2024-01-06 21:43:21,499 - Received message from ('127.0.0.1', 53339): ALIVE
+2024-01-06 21:44:06,462 - Connection with ('127.0.0.1', 53332) closed.
+2024-01-06 21:44:09,505 - Connection with ('127.0.0.1', 53334) closed.
+2024-01-06 21:44:10,480 - Connection with ('127.0.0.1', 53335) closed.
+2024-01-06 21:44:12,510 - Connection with ('127.0.0.1', 53336) closed.
+2024-01-06 21:44:15,474 - Connection with ('127.0.0.1', 53337) closed.
+2024-01-06 21:44:18,489 - Connection with ('127.0.0.1', 53338) closed.
+2024-01-06 21:44:21,499 - Connection with ('127.0.0.1', 53339) closed.
+2024-01-06 21:44:29,682 - Connection established with ('127.0.0.1', 53371)
+2024-01-06 21:44:29,682 - Received message from ('127.0.0.1', 53371): HUMIDITY|87.44|01.06.2024:21:44:29
+2024-01-06 21:44:30,687 - Connection established with ('127.0.0.1', 53372)
+2024-01-06 21:44:30,687 - Received message from ('127.0.0.1', 53372): ALIVE
+2024-01-06 21:44:33,702 - Connection established with ('127.0.0.1', 53373)
+2024-01-06 21:44:33,702 - Received message from ('127.0.0.1', 53373): ALIVE
+2024-01-06 21:44:36,718 - Connection established with ('127.0.0.1', 53374)
+2024-01-06 21:44:36,718 - Received message from ('127.0.0.1', 53374): ALIVE
+2024-01-06 21:44:39,725 - Connection established with ('127.0.0.1', 53381)
+2024-01-06 21:44:39,726 - Received message from ('127.0.0.1', 53381): ALIVE
+2024-01-06 21:44:42,741 - Connection established with ('127.0.0.1', 53385)
+2024-01-06 21:44:42,741 - Received message from ('127.0.0.1', 53385): ALIVE
+2024-01-06 21:44:45,756 - Connection established with ('127.0.0.1', 53386)
+2024-01-06 21:44:45,756 - Received message from ('127.0.0.1', 53386): ALIVE
+2024-01-06 21:44:48,771 - Connection established with ('127.0.0.1', 53387)
+2024-01-06 21:44:48,771 - Received message from ('127.0.0.1', 53387): ALIVE
+2024-01-06 21:44:51,785 - Connection established with ('127.0.0.1', 53388)
+2024-01-06 21:44:51,785 - Received message from ('127.0.0.1', 53388): ALIVE
+2024-01-06 21:44:54,800 - Connection established with ('127.0.0.1', 53392)
+2024-01-06 21:44:54,800 - Received message from ('127.0.0.1', 53392): ALIVE
+2024-01-06 21:44:57,815 - Connection established with ('127.0.0.1', 53393)
+2024-01-06 21:44:57,815 - Received message from ('127.0.0.1', 53393): ALIVE
+2024-01-06 21:45:00,830 - Connection established with ('127.0.0.1', 53394)
+2024-01-06 21:45:00,830 - Received message from ('127.0.0.1', 53394): ALIVE
+2024-01-06 21:45:03,844 - Connection established with ('127.0.0.1', 53396)
+2024-01-06 21:45:03,845 - Received message from ('127.0.0.1', 53396): ALIVE
+2024-01-06 21:45:29,682 - Connection with ('127.0.0.1', 53371) closed.
+2024-01-06 21:45:30,780 - Connection with ('127.0.0.1', 53372) closed.
+2024-01-06 21:45:33,714 - Connection with ('127.0.0.1', 53373) closed.
+2024-01-06 21:45:36,959 - Connection with ('127.0.0.1', 53374) closed.
+2024-01-06 21:45:39,725 - Connection with ('127.0.0.1', 53381) closed.
+2024-01-06 21:45:42,028 - Connection established with ('127.0.0.1', 53407)
+2024-01-06 21:45:42,029 - Received message from ('127.0.0.1', 53407): ALIVE
+2024-01-06 21:45:42,743 - Connection with ('127.0.0.1', 53385) closed.
+2024-01-06 21:45:45,040 - Connection established with ('127.0.0.1', 53409)
+2024-01-06 21:45:45,040 - Received message from ('127.0.0.1', 53409): ALIVE
+2024-01-06 21:45:45,756 - Connection with ('127.0.0.1', 53386) closed.
+2024-01-06 21:45:48,770 - Connection with ('127.0.0.1', 53387) closed.
+2024-01-06 21:45:51,784 - Connection with ('127.0.0.1', 53388) closed.
+2024-01-06 21:45:53,170 - Connection established with ('127.0.0.1', 53414)
+2024-01-06 21:45:53,170 - Received message from ('127.0.0.1', 53414): TEMPERATURE|22.37|01.06.2024:21:45:53
+2024-01-06 21:45:54,175 - Connection established with ('127.0.0.1', 53415)
+2024-01-06 21:45:54,175 - Received message from ('127.0.0.1', 53415): TEMPERATURE|27.05|01.06.2024:21:45:54
+2024-01-06 21:45:54,799 - Connection with ('127.0.0.1', 53392) closed.
+2024-01-06 21:45:55,177 - Connection established with ('127.0.0.1', 53416)
+2024-01-06 21:45:55,177 - Received message from ('127.0.0.1', 53416): TEMPERATURE|27.65|01.06.2024:21:45:55
+2024-01-06 21:45:56,182 - Connection established with ('127.0.0.1', 53420)
+2024-01-06 21:45:56,182 - Received message from ('127.0.0.1', 53420): TEMPERATURE|27.21|01.06.2024:21:45:56
+2024-01-06 21:45:57,187 - Connection established with ('127.0.0.1', 53425)
+2024-01-06 21:45:57,187 - Received message from ('127.0.0.1', 53425): TEMPERATURE|27.95|01.06.2024:21:45:57
+2024-01-06 21:45:57,816 - Connection with ('127.0.0.1', 53393) closed.
+2024-01-06 21:45:58,192 - Connection established with ('127.0.0.1', 53426)
+2024-01-06 21:45:58,192 - Received message from ('127.0.0.1', 53426): TEMPERATURE|27.6|01.06.2024:21:45:58
+2024-01-06 21:45:59,197 - Connection established with ('127.0.0.1', 53428)
+2024-01-06 21:45:59,198 - Received message from ('127.0.0.1', 53428): TEMPERATURE|20.05|01.06.2024:21:45:59
+2024-01-06 21:46:00,200 - Connection established with ('127.0.0.1', 53429)
+2024-01-06 21:46:00,201 - Received message from ('127.0.0.1', 53429): TEMPERATURE|29.89|01.06.2024:21:46:00
+2024-01-06 21:46:00,844 - Connection with ('127.0.0.1', 53394) closed.
+2024-01-06 21:46:01,205 - Connection established with ('127.0.0.1', 53431)
+2024-01-06 21:46:01,206 - Received message from ('127.0.0.1', 53431): TEMPERATURE|25.14|01.06.2024:21:46:01
+2024-01-06 21:46:03,845 - Connection with ('127.0.0.1', 53396) closed.
+2024-01-06 21:46:42,030 - Connection with ('127.0.0.1', 53407) closed.
+2024-01-06 21:46:45,040 - Connection with ('127.0.0.1', 53409) closed.
+2024-01-06 21:46:53,171 - Connection with ('127.0.0.1', 53414) closed.
+2024-01-06 21:46:54,175 - Connection with ('127.0.0.1', 53415) closed.
+2024-01-06 21:46:55,177 - Connection with ('127.0.0.1', 53416) closed.
+2024-01-06 21:46:56,184 - Connection with ('127.0.0.1', 53420) closed.
+2024-01-06 21:46:57,187 - Connection with ('127.0.0.1', 53425) closed.
+2024-01-06 21:46:58,194 - Connection with ('127.0.0.1', 53426) closed.
+2024-01-06 21:46:59,197 - Connection with ('127.0.0.1', 53428) closed.
+2024-01-06 21:47:00,202 - Connection with ('127.0.0.1', 53429) closed.
+2024-01-06 21:47:01,206 - Connection with ('127.0.0.1', 53431) closed.
+2024-01-06 21:47:11,139 - Connection established with ('127.0.0.1', 53466)
+2024-01-06 21:47:11,139 - Received message from ('127.0.0.1', 53466): TEMPERATURE|25.64|01.06.2024:21:47:11
+2024-01-06 21:47:12,142 - Connection established with ('127.0.0.1', 53467)
+2024-01-06 21:47:12,142 - Received message from ('127.0.0.1', 53467): TEMPERATURE|24.82|01.06.2024:21:47:12
+2024-01-06 21:47:13,143 - Connection established with ('127.0.0.1', 53468)
+2024-01-06 21:47:13,143 - Received message from ('127.0.0.1', 53468): TEMPERATURE|25.35|01.06.2024:21:47:13
+2024-01-06 21:47:14,148 - Connection established with ('127.0.0.1', 53469)
+2024-01-06 21:47:14,148 - Received message from ('127.0.0.1', 53469): TEMPERATURE|23.65|01.06.2024:21:47:14
+2024-01-06 21:47:15,153 - Connection established with ('127.0.0.1', 53470)
+2024-01-06 21:47:15,153 - Received message from ('127.0.0.1', 53470): TEMPERATURE|20.06|01.06.2024:21:47:15
+2024-01-06 21:47:16,158 - Connection established with ('127.0.0.1', 53471)
+2024-01-06 21:47:16,159 - Received message from ('127.0.0.1', 53471): TEMPERATURE|24.3|01.06.2024:21:47:16
+2024-01-06 21:47:17,163 - Connection established with ('127.0.0.1', 53472)
+2024-01-06 21:47:17,163 - Received message from ('127.0.0.1', 53472): TEMPERATURE|25.75|01.06.2024:21:47:17
+2024-01-06 21:47:18,164 - Connection established with ('127.0.0.1', 53473)
+2024-01-06 21:47:18,164 - Received message from ('127.0.0.1', 53473): TEMPERATURE|23.92|01.06.2024:21:47:18
+2024-01-06 21:47:19,169 - Connection established with ('127.0.0.1', 53474)
+2024-01-06 21:47:19,169 - Received message from ('127.0.0.1', 53474): TEMPERATURE|24.51|01.06.2024:21:47:19
+2024-01-06 21:47:20,174 - Connection established with ('127.0.0.1', 53475)
+2024-01-06 21:47:20,174 - Received message from ('127.0.0.1', 53475): TEMPERATURE|21.13|01.06.2024:21:47:20
+2024-01-06 21:47:21,175 - Connection established with ('127.0.0.1', 53478)
+2024-01-06 21:47:21,176 - Received message from ('127.0.0.1', 53478): TEMPERATURE|20.57|01.06.2024:21:47:21
+2024-01-06 21:47:22,180 - Connection established with ('127.0.0.1', 53479)
+2024-01-06 21:47:22,181 - Received message from ('127.0.0.1', 53479): TEMPERATURE|26.95|01.06.2024:21:47:22
+2024-01-06 21:47:23,185 - Connection established with ('127.0.0.1', 53481)
+2024-01-06 21:47:23,186 - Received message from ('127.0.0.1', 53481): TEMPERATURE|21.52|01.06.2024:21:47:23
+2024-01-06 21:47:24,190 - Connection established with ('127.0.0.1', 53482)
+2024-01-06 21:47:24,190 - Received message from ('127.0.0.1', 53482): TEMPERATURE|26.15|01.06.2024:21:47:24
+2024-01-06 21:47:25,193 - Connection established with ('127.0.0.1', 53483)
+2024-01-06 21:47:25,194 - Received message from ('127.0.0.1', 53483): TEMPERATURE|23.17|01.06.2024:21:47:25
+2024-01-06 21:47:26,197 - Connection established with ('127.0.0.1', 53484)
+2024-01-06 21:47:26,197 - Received message from ('127.0.0.1', 53484): TEMPERATURE|29.71|01.06.2024:21:47:26
+2024-01-06 21:47:27,202 - Connection established with ('127.0.0.1', 53486)
+2024-01-06 21:47:27,203 - Received message from ('127.0.0.1', 53486): TEMPERATURE|29.89|01.06.2024:21:47:27
+2024-01-06 21:47:28,208 - Connection established with ('127.0.0.1', 53487)
+2024-01-06 21:47:28,209 - Received message from ('127.0.0.1', 53487): TEMPERATURE|22.15|01.06.2024:21:47:28
+2024-01-06 21:47:29,212 - Connection established with ('127.0.0.1', 53489)
+2024-01-06 21:47:29,213 - Received message from ('127.0.0.1', 53489): TEMPERATURE|29.94|01.06.2024:21:47:29
+2024-01-06 21:47:30,217 - Connection established with ('127.0.0.1', 53491)
+2024-01-06 21:47:30,218 - Received message from ('127.0.0.1', 53491): TEMPERATURE|28.32|01.06.2024:21:47:30
+2024-01-06 21:47:31,218 - Connection established with ('127.0.0.1', 53492)
+2024-01-06 21:47:31,218 - Received message from ('127.0.0.1', 53492): TEMPERATURE|29.28|01.06.2024:21:47:31
+2024-01-06 21:47:32,223 - Connection established with ('127.0.0.1', 53493)
+2024-01-06 21:47:32,223 - Received message from ('127.0.0.1', 53493): TEMPERATURE|26.72|01.06.2024:21:47:32
+2024-01-06 21:47:33,228 - Connection established with ('127.0.0.1', 53495)
+2024-01-06 21:47:33,228 - Received message from ('127.0.0.1', 53495): TEMPERATURE|28.55|01.06.2024:21:47:33
+2024-01-06 21:47:34,230 - Connection established with ('127.0.0.1', 53497)
+2024-01-06 21:47:34,230 - Received message from ('127.0.0.1', 53497): TEMPERATURE|20.64|01.06.2024:21:47:34
+2024-01-06 21:47:35,234 - Connection established with ('127.0.0.1', 53498)
+2024-01-06 21:47:35,234 - Received message from ('127.0.0.1', 53498): TEMPERATURE|26.32|01.06.2024:21:47:35
+2024-01-06 21:47:36,239 - Connection established with ('127.0.0.1', 53499)
+2024-01-06 21:47:36,240 - Received message from ('127.0.0.1', 53499): TEMPERATURE|28.31|01.06.2024:21:47:36
+2024-01-06 21:47:37,244 - Connection established with ('127.0.0.1', 53500)
+2024-01-06 21:47:37,245 - Received message from ('127.0.0.1', 53500): TEMPERATURE|28.81|01.06.2024:21:47:37
+2024-01-06 21:47:38,249 - Connection established with ('127.0.0.1', 53501)
+2024-01-06 21:47:38,249 - Received message from ('127.0.0.1', 53501): TEMPERATURE|29.37|01.06.2024:21:47:38
+2024-01-06 21:47:39,255 - Connection established with ('127.0.0.1', 53502)
+2024-01-06 21:47:39,255 - Received message from ('127.0.0.1', 53502): TEMPERATURE|21.34|01.06.2024:21:47:39
+2024-01-06 21:47:40,259 - Connection established with ('127.0.0.1', 53503)
+2024-01-06 21:47:40,260 - Received message from ('127.0.0.1', 53503): TEMPERATURE|24.65|01.06.2024:21:47:40
+2024-01-06 21:47:41,264 - Connection established with ('127.0.0.1', 53504)
+2024-01-06 21:47:41,265 - Received message from ('127.0.0.1', 53504): TEMPERATURE|21.28|01.06.2024:21:47:41
+2024-01-06 21:47:42,265 - Connection established with ('127.0.0.1', 53506)
+2024-01-06 21:47:42,266 - Received message from ('127.0.0.1', 53506): TEMPERATURE|24.65|01.06.2024:21:47:42
+2024-01-06 21:47:43,271 - Connection established with ('127.0.0.1', 53507)
+2024-01-06 21:47:43,271 - Received message from ('127.0.0.1', 53507): TEMPERATURE|25.35|01.06.2024:21:47:43
+2024-01-06 21:47:44,276 - Connection established with ('127.0.0.1', 53508)
+2024-01-06 21:47:44,277 - Received message from ('127.0.0.1', 53508): TEMPERATURE|26.5|01.06.2024:21:47:44
+2024-01-06 21:47:45,277 - Connection established with ('127.0.0.1', 53509)
+2024-01-06 21:47:45,278 - Received message from ('127.0.0.1', 53509): TEMPERATURE|20.47|01.06.2024:21:47:45
+2024-01-06 21:47:46,281 - Connection established with ('127.0.0.1', 53510)
+2024-01-06 21:47:46,282 - Received message from ('127.0.0.1', 53510): TEMPERATURE|28.98|01.06.2024:21:47:46
+2024-01-06 21:47:47,287 - Connection established with ('127.0.0.1', 53512)
+2024-01-06 21:47:47,288 - Received message from ('127.0.0.1', 53512): TEMPERATURE|22.89|01.06.2024:21:47:47
+2024-01-06 21:47:48,287 - Connection established with ('127.0.0.1', 53514)
+2024-01-06 21:47:48,287 - Received message from ('127.0.0.1', 53514): TEMPERATURE|21.44|01.06.2024:21:47:48
+2024-01-06 21:47:49,292 - Connection established with ('127.0.0.1', 53515)
+2024-01-06 21:47:49,292 - Received message from ('127.0.0.1', 53515): TEMPERATURE|29.93|01.06.2024:21:47:49
+2024-01-06 21:47:50,298 - Connection established with ('127.0.0.1', 53516)
+2024-01-06 21:47:50,298 - Received message from ('127.0.0.1', 53516): TEMPERATURE|27.9|01.06.2024:21:47:50
+2024-01-06 21:47:51,304 - Connection established with ('127.0.0.1', 53517)
+2024-01-06 21:47:51,304 - Received message from ('127.0.0.1', 53517): TEMPERATURE|23.46|01.06.2024:21:47:51
+2024-01-06 21:47:52,310 - Connection established with ('127.0.0.1', 53518)
+2024-01-06 21:47:52,311 - Received message from ('127.0.0.1', 53518): TEMPERATURE|28.2|01.06.2024:21:47:52
+2024-01-06 21:47:53,313 - Connection established with ('127.0.0.1', 53520)
+2024-01-06 21:47:53,314 - Received message from ('127.0.0.1', 53520): TEMPERATURE|24.09|01.06.2024:21:47:53
+2024-01-06 21:47:54,318 - Connection established with ('127.0.0.1', 53521)
+2024-01-06 21:47:54,319 - Received message from ('127.0.0.1', 53521): TEMPERATURE|27.62|01.06.2024:21:47:54
+2024-01-06 21:47:55,318 - Connection established with ('127.0.0.1', 53522)
+2024-01-06 21:47:55,318 - Received message from ('127.0.0.1', 53522): TEMPERATURE|21.69|01.06.2024:21:47:55
+2024-01-06 21:47:56,323 - Connection established with ('127.0.0.1', 53523)
+2024-01-06 21:47:56,323 - Received message from ('127.0.0.1', 53523): TEMPERATURE|21.93|01.06.2024:21:47:56
+2024-01-06 21:47:57,328 - Connection established with ('127.0.0.1', 53524)
+2024-01-06 21:47:57,329 - Received message from ('127.0.0.1', 53524): TEMPERATURE|21.55|01.06.2024:21:47:57
+2024-01-06 21:47:58,333 - Connection established with ('127.0.0.1', 53528)
+2024-01-06 21:47:58,335 - Received message from ('127.0.0.1', 53528): TEMPERATURE|28.2|01.06.2024:21:47:58
+2024-01-06 21:47:59,339 - Connection established with ('127.0.0.1', 53529)
+2024-01-06 21:47:59,339 - Received message from ('127.0.0.1', 53529): TEMPERATURE|24.57|01.06.2024:21:47:59
+2024-01-06 21:48:00,343 - Connection established with ('127.0.0.1', 53530)
+2024-01-06 21:48:00,345 - Received message from ('127.0.0.1', 53530): TEMPERATURE|23.77|01.06.2024:21:48:00
+2024-01-06 21:48:01,349 - Connection established with ('127.0.0.1', 53531)
+2024-01-06 21:48:01,349 - Received message from ('127.0.0.1', 53531): TEMPERATURE|28.85|01.06.2024:21:48:01
+2024-01-06 21:48:02,354 - Connection established with ('127.0.0.1', 53532)
+2024-01-06 21:48:02,355 - Received message from ('127.0.0.1', 53532): TEMPERATURE|29.51|01.06.2024:21:48:02
+2024-01-06 21:48:03,354 - Connection established with ('127.0.0.1', 53534)
+2024-01-06 21:48:03,355 - Received message from ('127.0.0.1', 53534): TEMPERATURE|23.6|01.06.2024:21:48:03
+2024-01-06 21:48:04,362 - Connection established with ('127.0.0.1', 53536)
+2024-01-06 21:48:04,363 - Received message from ('127.0.0.1', 53536): TEMPERATURE|24.46|01.06.2024:21:48:04
+2024-01-06 21:48:05,364 - Connection established with ('127.0.0.1', 53542)
+2024-01-06 21:48:05,365 - Received message from ('127.0.0.1', 53542): TEMPERATURE|20.82|01.06.2024:21:48:05
+2024-01-06 21:48:06,383 - Connection established with ('127.0.0.1', 53546)
+2024-01-06 21:48:06,385 - Received message from ('127.0.0.1', 53546): TEMPERATURE|22.47|01.06.2024:21:48:06
+2024-01-06 21:48:07,369 - Connection established with ('127.0.0.1', 53547)
+2024-01-06 21:48:07,369 - Received message from ('127.0.0.1', 53547): TEMPERATURE|24.89|01.06.2024:21:48:07
+2024-01-06 21:48:08,373 - Connection established with ('127.0.0.1', 53549)
+2024-01-06 21:48:08,374 - Received message from ('127.0.0.1', 53549): TEMPERATURE|29.61|01.06.2024:21:48:08
+2024-01-06 21:48:09,379 - Connection established with ('127.0.0.1', 53550)
+2024-01-06 21:48:09,380 - Received message from ('127.0.0.1', 53550): TEMPERATURE|26.59|01.06.2024:21:48:09
+2024-01-06 21:48:10,385 - Connection established with ('127.0.0.1', 53551)
+2024-01-06 21:48:10,386 - Received message from ('127.0.0.1', 53551): TEMPERATURE|24.81|01.06.2024:21:48:10
+2024-01-06 21:48:11,141 - Connection with ('127.0.0.1', 53466) closed.
+2024-01-06 21:48:11,390 - Connection established with ('127.0.0.1', 53554)
+2024-01-06 21:48:11,390 - Received message from ('127.0.0.1', 53554): TEMPERATURE|21.22|01.06.2024:21:48:11
+2024-01-06 21:48:12,144 - Connection with ('127.0.0.1', 53467) closed.
+2024-01-06 21:48:13,150 - Connection with ('127.0.0.1', 53468) closed.
+2024-01-06 21:48:14,165 - Connection with ('127.0.0.1', 53469) closed.
+2024-01-06 21:48:15,176 - Connection with ('127.0.0.1', 53470) closed.
+2024-01-06 21:48:16,159 - Connection with ('127.0.0.1', 53471) closed.
+2024-01-06 21:48:17,171 - Connection with ('127.0.0.1', 53472) closed.
+2024-01-06 21:48:18,180 - Connection with ('127.0.0.1', 53473) closed.
+2024-01-06 21:48:19,188 - Connection with ('127.0.0.1', 53474) closed.
+2024-01-06 21:48:20,197 - Connection with ('127.0.0.1', 53475) closed.
+2024-01-06 21:48:21,203 - Connection with ('127.0.0.1', 53478) closed.
+2024-01-06 21:48:22,183 - Connection with ('127.0.0.1', 53479) closed.
+2024-01-06 21:48:23,191 - Connection with ('127.0.0.1', 53481) closed.
+2024-01-06 21:48:24,200 - Connection with ('127.0.0.1', 53482) closed.
+2024-01-06 21:48:25,203 - Connection with ('127.0.0.1', 53483) closed.

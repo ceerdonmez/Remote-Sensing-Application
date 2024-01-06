@@ -1,6 +1,6 @@
 import socket
 import threading
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template
 from server import start_server, get_temperature, get_humidity, get_last_humidity
 
 app = Flask(__name__)

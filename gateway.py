@@ -5,7 +5,7 @@ from logger import log_message as log
 
 # Function to handle each client connection
 def handle_tcp_client(client_socket, address):
-
+    global last_message_time
     while True:
         try:
             message = client_socket.recv(1024).decode("utf-8")
@@ -14,7 +14,13 @@ def handle_tcp_client(client_socket, address):
                 print(f"Received message from {address}: {message}")
                 log("logs/gateway_logs.txt",f"Received message from {address}: {message}")
                 broadcast(message)
-
+                last_message_time = time.time()
+            if (int(time.time()) - int(last_message_time)) > 10:
+                print("'TEMP SENSOR OFF'")
+                log("logs/gateway_logs.txt","'TEMP SENSOR OFF'")
+                broadcast("'TEMP SENSOR OFF'")
+                client_socket.close()
+                break
             
             
         except ConnectionResetError:
@@ -24,17 +30,19 @@ def handle_tcp_client(client_socket, address):
             break
 
 def handle_udp_client(udp_gateway):
+
     while True:
         try:
             message, address = udp_gateway.recvfrom(1024)
             if message:
                 print(f"Received message from {address}: {message}")
                 log("logs/gateway_logs.txt",f"Received message from {address}: {message}")
-                broadcast(message.decode("utf-8"))
+                broadcast(message.decode("utf-8"))           
         except ConnectionResetError:
             log("logs/gateway_logs.txt",f"Connection with {address} closed.")
             udp_gateway.close()
             break
+        
 
 # Function to broadcast message to all clients except the sender
 def broadcast(message):
