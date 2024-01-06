@@ -2,6 +2,7 @@ import socket
 import threading
 import sqlite3
 import pandas as pd
+from logger import log_message as log
 
 conn = sqlite3.connect('sensor_data.db',check_same_thread=False)
 cursor = conn.cursor()
@@ -28,6 +29,7 @@ def handle_client(client_socket, address):
             message = client_socket.recv(1024).decode("utf-8")
             if message:
                 print(f"Received message from {address}: {message}")
+                log("logs/server_logs.txt",f"Received message from {address}: {message}")
                 if message.startswith("TEMPERATURE"):
                     cursor.execute(''' 
                         INSERT INTO temp_data (temperature,timestamp) VALUES (?,?)
@@ -42,6 +44,7 @@ def handle_client(client_socket, address):
         
         except ConnectionResetError:
             print(f"Connection with {address} closed.")
+            log("logs/server_logs.txt",f"Connection with {address} closed.")
             client_socket.close()
             break
 
@@ -71,10 +74,12 @@ def start_server():
     server.listen(5)
 
     print(f"Server is listening on {host}:{port}")
+    log("logs/server_logs.txt",f"Server is listening on {host}:{port}")
 
     while True:
         client_socket, address = server.accept()
         print(f"Connection established with {address}")
+        log("logs/server_logs.txt",f"Connection established with {address}")
         client_handler = threading.Thread(
             target=handle_client, args=(client_socket, address)
         )

@@ -1,0 +1,26 @@
+2024-01-06 21:15:07,703 - Gateway is listening for TCP connections on 127.0.0.1:9999
+2024-01-06 21:15:07,703 - Gateway is listening for UDP messages on 127.0.0.1:8888
+2024-01-06 21:16:06,098 - Received message from ('127.0.0.1', 52933): b'HUMIDITY|84.92|01.06.2024:21:16:06'
+2024-01-06 21:16:06,100 - Sent message to 127.0.0.1:8080: HUMIDITY|84.92|01.06.2024:21:16:06
+2024-01-06 21:16:09,113 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:09,114 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:10,115 - Received message from ('127.0.0.1', 52933): b'HUMIDITY|82.46|01.06.2024:21:16:10'
+2024-01-06 21:16:10,116 - Sent message to 127.0.0.1:8080: HUMIDITY|82.46|01.06.2024:21:16:10
+2024-01-06 21:16:11,119 - Received message from ('127.0.0.1', 52933): b'HUMIDITY|88.04|01.06.2024:21:16:11'
+2024-01-06 21:16:11,120 - Sent message to 127.0.0.1:8080: HUMIDITY|88.04|01.06.2024:21:16:11
+2024-01-06 21:16:12,124 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:12,125 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:13,130 - Received message from ('127.0.0.1', 52933): b'HUMIDITY|82.52|01.06.2024:21:16:13'
+2024-01-06 21:16:13,130 - Sent message to 127.0.0.1:8080: HUMIDITY|82.52|01.06.2024:21:16:13
+2024-01-06 21:16:15,140 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:15,141 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:18,151 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:18,152 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:21,160 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:21,161 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:24,174 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:24,175 - Sent message to 127.0.0.1:8080: ALIVE
+2024-01-06 21:16:25,179 - Received message from ('127.0.0.1', 52933): b'HUMIDITY|80.08|01.06.2024:21:16:25'
+2024-01-06 21:16:25,180 - Sent message to 127.0.0.1:8080: HUMIDITY|80.08|01.06.2024:21:16:25
+2024-01-06 21:16:27,188 - Received message from ('127.0.0.1', 52933): b'ALIVE'
+2024-01-06 21:16:27,189 - Sent message to 127.0.0.1:8080: ALIVE

@@ -2,6 +2,7 @@ import socket
 import threading
 import time
 import random
+from logger import log_message as log
 
 
 def main():
@@ -21,14 +22,18 @@ def main():
                 message = f"HUMIDITY|{humidity_value}|{timestamp}"
                 client.sendto(message.encode(), (host, port))
                 print(message)
+                log("logs/humidity_logs.txt", message)
             time.sleep(1)
             if int(time.time()) % 3 == 0:
                 alive_message = "ALIVE"
                 client.sendto(alive_message.encode(), (host, port))
+                print(alive_message)
+                log("logs/humidity_logs.txt", alive_message)
 
                 time.sleep(1)
         except socket.error as e:
             print(f"Error receiving data: {e}")
+            log("logs/humidity_logs.txt", f"Error receiving data: {e}")
             time.sleep(2)  # or handle error in another appropriate way
 
 

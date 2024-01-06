@@ -1,17 +1,25 @@
 import socket
 import threading
+import time
+from logger import log_message as log
 
 # Function to handle each client connection
 def handle_tcp_client(client_socket, address):
+
     while True:
         try:
             message = client_socket.recv(1024).decode("utf-8")
+           
             if message:
                 print(f"Received message from {address}: {message}")
+                log("logs/gateway_logs.txt",f"Received message from {address}: {message}")
                 broadcast(message)
+
+            
             
         except ConnectionResetError:
             print(f"Connection with {address} closed.")
+            log("logs/gateway_logs.txt",f"Connection with {address} closed.")
             client_socket.close()
             break
 
@@ -21,9 +29,10 @@ def handle_udp_client(udp_gateway):
             message, address = udp_gateway.recvfrom(1024)
             if message:
                 print(f"Received message from {address}: {message}")
+                log("logs/gateway_logs.txt",f"Received message from {address}: {message}")
                 broadcast(message.decode("utf-8"))
         except ConnectionResetError:
-            print(f"Connection with {address} closed.")
+            log("logs/gateway_logs.txt",f"Connection with {address} closed.")
             udp_gateway.close()
             break
 
@@ -36,6 +45,7 @@ def broadcast(message):
     server_socket.connect((server_host, server_port))
     server_socket.sendall(message.encode("utf-8"))
     print(f"Sent message to {server_host}:{server_port}: {message}")
+    log("logs/gateway_logs.txt",f"Sent message to {server_host}:{server_port}: {message}")
     server_socket.close()
 
 
@@ -54,6 +64,9 @@ def main():
     print(f"Gateway is listening for TCP connections on {host}:{tcp_port}")
     print(f"Gateway is listening for UDP messages on {host}:{udp_port}")
 
+    log("logs/gateway_logs.txt",f"Gateway is listening for TCP connections on {host}:{tcp_port}")
+    log("logs/gateway_logs.txt",f"Gateway is listening for UDP messages on {host}:{udp_port}")
+
     udp_thread = threading.Thread(target=handle_udp_client, args=(udp_gateway,))
     udp_thread.start()
 
@@ -61,6 +74,7 @@ def main():
         # Accept TCP client connection
         tcp_client_socket, address = tcp_gateway.accept()
         print(f"Connection established with {address}")
+        log("logs/gateway_logs.txt",f"Connection established with {address}")
         # Handle TCP client connection in a separate thread
         tcp_client_handler = threading.Thread(
             target=handle_tcp_client, args=(tcp_client_socket, address)

@@ -16,7 +16,7 @@ def humidity():
     return render_template('humidity.html')
    
 @app.route('/gethumidity', methods=['GET'])
-def get_humidity():
+def get_last_humidity1():
     data = get_last_humidity()
     data.to_html('templates/last_humidity.html', index=False)
     return render_template('last_humidity.html')
@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     
     # Run the Flask app on port 8080
-    app.run(host="localhost", debug=False, port=8080)
+    app.run(host="localhost", debug=False, port=8081)
