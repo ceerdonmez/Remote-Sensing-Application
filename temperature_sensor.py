@@ -4,6 +4,7 @@ import time
 import random
 from logger import log_message as log
 
+
 def main():
     host = "127.0.0.1"
     port = 9999
