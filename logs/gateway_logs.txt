@@ -434,3 +434,19 @@
 2024-01-06 21:48:11,388 - Received message from ('127.0.0.1', 53465): TEMPERATURE|21.22|01.06.2024:21:48:11
 2024-01-06 21:48:11,389 - Sent message to 127.0.0.1:8080: TEMPERATURE|21.22|01.06.2024:21:48:11
 2024-01-06 21:48:22,000 - Connection with client closed
+2024-01-07 00:33:52,764 - Sent handshake to 127.0.0.1:8080
+2024-01-07 00:37:33,661 - Sent handshake to 127.0.0.1:8080
+2024-01-07 00:37:33,662 - Gateway is listening for TCP connections on 127.0.0.1:9999
+2024-01-07 00:37:33,662 - Gateway is listening for UDP messages on 127.0.0.1:8888
+2024-01-07 01:06:03,773 - Received from server: Handshake initiated. Waiting for client response...
+2024-01-07 01:06:03,773 - Server response after handshake: Handshake successful. Starting server...
+2024-01-07 01:06:03,773 - Gateway is listening for TCP connections on 127.0.0.1:9999
+2024-01-07 01:06:03,773 - Gateway is listening for UDP messages on 127.0.0.1:8888
+2024-01-07 01:08:47,096 - Received from server: Handshake initiated. Waiting for client response...
+2024-01-07 01:08:47,097 - Server response after handshake: Handshake successful. Starting server...
+2024-01-07 01:08:47,097 - Gateway is listening for TCP connections on 127.0.0.1:9999
+2024-01-07 01:08:47,097 - Gateway is listening for UDP messages on 127.0.0.1:8888
+2024-01-07 01:10:01,870 - Received from server: Handshake initiated. Waiting for client response...
+2024-01-07 01:10:01,871 - Server response after handshake: Handshake successful. Starting server...
+2024-01-07 01:10:01,871 - Gateway is listening for TCP connections on 127.0.0.1:9999
+2024-01-07 01:10:01,871 - Gateway is listening for UDP messages on 127.0.0.1:8888

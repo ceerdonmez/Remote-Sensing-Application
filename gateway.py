@@ -2,7 +2,32 @@ import socket
 import threading
 import time
 from logger import log_message as log
+import random
 
+server_host = "127.0.0.1"
+server_port = 8081
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+def handshake():
+    sock.connect((server_host, server_port))
+
+    server_msg = sock.recv(1024)
+    print(f"Received from server: {server_msg.decode()}")
+    log("logs/gateway_logs.txt",f"Received from server: {server_msg.decode()}")
+    # Send response to server
+    if server_msg:
+        sock.send(b"ACK")
+        print("Sent ACK to server for handshake")
+
+        # Receive acknowledgment from server after handshake
+        ack_response = sock.recv(1024)
+        print(f"Server response after handshake: {ack_response.decode()}")
+        log("logs/gateway_logs.txt",f"Server response after handshake: {ack_response.decode()}")
+        start_gateway()
+    else:
+        print("Server did not respond to handshake")
+        log("logs/gateway_logs.txt","Server did not respond to handshake")
+        sock.close()
 # Function to handle each client connection
 def handle_tcp_client(client_socket, address):
     global last_message_time
@@ -46,18 +71,15 @@ def handle_udp_client(udp_gateway):
 
 # Function to broadcast message to all clients except the sender
 def broadcast(message):
-    server_host = "127.0.0.1"
-    server_port = 8080
-
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.connect((server_host, server_port))
-    server_socket.sendall(message.encode("utf-8"))
+   
+    sock.connect((server_host, server_port))
+    sock.sendall(message.encode("utf-8"))
     print(f"Sent message to {server_host}:{server_port}: {message}")
     log("logs/gateway_logs.txt",f"Sent message to {server_host}:{server_port}: {message}")
-    server_socket.close()
+    sock.close()
 
 
-def main():
+def start_gateway():
     host = "127.0.0.1"
     tcp_port = 9999
     udp_port = 8888
@@ -91,4 +113,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    handshake()

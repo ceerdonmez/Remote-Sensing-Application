@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     
     # Run the Flask app on port 8080
-    app.run(host="localhost", debug=False, port=8081)
+    app.run(host="localhost", debug=False, port=8080)

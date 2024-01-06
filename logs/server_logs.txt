@@ -521,3 +521,16 @@
 2024-01-06 21:48:23,191 - Connection with ('127.0.0.1', 53481) closed.
 2024-01-06 21:48:24,200 - Connection with ('127.0.0.1', 53482) closed.
 2024-01-06 21:48:25,203 - Connection with ('127.0.0.1', 53483) closed.
+2024-01-06 21:48:26,211 - Connection with ('127.0.0.1', 53484) closed.
+2024-01-06 21:48:27,203 - Connection with ('127.0.0.1', 53486) closed.
+2024-01-06 21:48:28,208 - Connection with ('127.0.0.1', 53487) closed.
+2024-01-06 21:48:29,278 - Connection with ('127.0.0.1', 53489) closed.
+2024-01-06 21:48:30,284 - Connection with ('127.0.0.1', 53491) closed.
+2024-01-06 21:48:31,315 - Connection with ('127.0.0.1', 53492) closed.
+2024-01-06 21:48:32,226 - Connection with ('127.0.0.1', 53493) closed.
+2024-01-06 21:48:33,314 - Connection with ('127.0.0.1', 53495) closed.
+2024-01-06 21:48:34,322 - Connection with ('127.0.0.1', 53497) closed.
+2024-01-07 01:06:03,773 - Server is listening on 127.0.0.1:8080
+2024-01-07 01:08:47,097 - Server is listening on 127.0.0.1:8080
+2024-01-07 01:10:01,871 - Handshake successful. Starting server...
+2024-01-07 01:10:01,871 - Server is listening on 127.0.0.1:8081
